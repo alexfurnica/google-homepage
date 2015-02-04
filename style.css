@@ -1,0 +1,85 @@
+body {
+	text-align: center;
+}
+
+#logo {
+	width:269px; height:95px;
+}
+
+#searchbar {
+	display:block;
+	padding: 7px;
+	margin: auto;
+	width: 550px;
+	border: 1px solid rgba(0,0,0,.2);
+	background: transparent url("./mic.jpg") no-repeat right scroll;
+}
+
+.searchbtn {
+	display: inline-block;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #555555;
+	padding: 7px;
+	margin-top: 15px;
+	margin-left: 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2px;
+	background-color: #EFEFEF;
+}
+
+#footer {
+	clear:both;
+	background-color: #EFEFEF;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	line-height: 40px;
+	position:fixed;
+	width: 100%;
+}
+
+#footer a {
+	display:inline-block;
+	padding-left:30px;
+	float:right;
+}
+
+a:link {
+	text-decoration:none;
+	color:#858585;
+	font-family:Arial;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #858585;
+}
+
+span {
+	float:left;
+}
+
+#header {
+	clear:both;
+	top:0;
+	height:40px;
+	line-height:40px;
+}
+
+#header a {
+	display:inline-block;
+	padding-left: 20px;
+	float:right;
+	color: black;
+}
+
+a img {
+	vertical-align: middle;
+}
